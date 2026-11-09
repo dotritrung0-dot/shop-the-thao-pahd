@@ -35,8 +35,16 @@ shop/
 ├── Ct10.1.html - Ct10.24.html   # 24 trang chi tiết 24 sản phẩm
 ├── CSS/
 │   └── style.css                # Hệ thống CSS Design System hoàn chỉnh
-└── Hình ảnh sách/               # Kho tài nguyên hình ảnh sản phẩm
+├── images/                      # Kho hình ảnh thể thao thực tế chất lượng cao (24 sản phẩm + banners)
+└── Hình ảnh sách/               # Thư mục hình ảnh dự phòng tương thích ngược
 ```
+
+---
+
+## Trải Nghiệm Trực Tiếp (Live Demo)
+
+Website đã được xuất bản và hoạt động trực tiếp trên GitHub Pages:
+👉 **[https://dotritrung0-dot.github.io/shop-the-thao-pahd/](https://dotritrung0-dot.github.io/shop-the-thao-pahd/)**
 
 ---
 
