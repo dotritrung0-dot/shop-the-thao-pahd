@@ -30,7 +30,6 @@
       </nav>
     </div>
   </header>
-  </div>
 
   <!-- Hero Section chuẩn Apple Flagship -->
   <section class="hero-section">
@@ -42,9 +41,128 @@
         <a href="Ct1.html" class="btn btn-primary">Khám Phá Cửa Hàng</a>
         <a href="Ct8.html" class="btn btn-secondary">Tìm Hiểu Thương Hiệu</a>
       </div>
+    </div>
 
-      <div class="hero-image-wrapper">
-        <img src="images/banner-hero.jpg" alt="Trang thiết bị thể thao PAHD Sport">
+    <!-- Khung banner full 1500px tỉ lệ 70% (ảnh banner) và 30% (slider sản phẩm chuyển động) -->
+    <div class="hero-banner-container">
+      <div class="hero-banner-split">
+        <!-- 70%: Ảnh Banner chính -->
+        <div class="hero-banner-main">
+          <img src="images/banner-hero.jpg" alt="Bộ sưu tập thể thao chính hãng PAHD Sport 2026">
+          <div class="hero-banner-main-overlay">
+            <span class="hero-banner-main-tag">Bộ Sưu Tập 2026</span>
+            <h2 class="hero-banner-main-title">Trang Bị Thể Thao Đỉnh Cao</h2>
+            <p class="hero-banner-main-desc">Công nghệ carbon siêu nhẹ, độ hoàn thiện tinh xảo chuẩn thi đấu quốc tế.</p>
+          </div>
+        </div>
+
+        <!-- 30%: Slider sản phẩm chuyển động (5 sản phẩm) -->
+        <div class="hero-banner-side">
+          <div class="banner-side-header">
+            <div class="banner-side-badge-wrap">
+              <span class="banner-live-indicator"></span>
+              <span class="banner-side-badge">Sản Phẩm Đang Săn Đón</span>
+            </div>
+            <span class="banner-side-count" id="bannerSlideCounter">1 / 5</span>
+          </div>
+
+          <div class="banner-product-slider" id="bannerProductSlider">
+            <!-- Sản phẩm 1: Bóng Đá -->
+            <div class="product-slide active" data-index="0">
+              <div class="product-slide-img-box">
+                <span class="product-slide-tag">Hot Item</span>
+                <img src="images/sp-1.jpg" alt="Quả Bóng Đá Pro Match 2026">
+              </div>
+              <div class="product-slide-info">
+                <span class="product-slide-category">Bóng Đá</span>
+                <h3 class="product-slide-title">Quả Bóng Đá Pro Match 2026</h3>
+                <div class="product-slide-bottom">
+                  <span class="product-slide-price">650.000 đ</span>
+                  <a href="Ct10.1.html" class="btn btn-primary btn-sm">Xem Chi Tiết</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sản phẩm 2: Cầu Lông -->
+            <div class="product-slide" data-index="1">
+              <div class="product-slide-img-box">
+                <span class="product-slide-tag">Bán Chạy</span>
+                <img src="images/sp-5.jpg" alt="Vợt Cầu Lông Khung Carbon AeroStorm 4U">
+              </div>
+              <div class="product-slide-info">
+                <span class="product-slide-category">Cầu Lông</span>
+                <h3 class="product-slide-title">Vợt Cầu Lông AeroStorm 4U</h3>
+                <div class="product-slide-bottom">
+                  <span class="product-slide-price">1.450.000 đ</span>
+                  <a href="Ct10.5.html" class="btn btn-primary btn-sm">Xem Chi Tiết</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sản phẩm 3: Pickleball -->
+            <div class="product-slide" data-index="2">
+              <div class="product-slide-img-box">
+                <span class="product-slide-tag">Xu Hướng 2026</span>
+                <img src="images/sp-14.jpg" alt="Vợt Pickleball Sợi Carbon Raw T700 Pro">
+              </div>
+              <div class="product-slide-info">
+                <span class="product-slide-category">Pickleball</span>
+                <h3 class="product-slide-title">Vợt Pickleball Raw T700</h3>
+                <div class="product-slide-bottom">
+                  <span class="product-slide-price">1.680.000 đ</span>
+                  <a href="Ct10.14.html" class="btn btn-primary btn-sm">Xem Chi Tiết</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sản phẩm 4: Chạy Bộ -->
+            <div class="product-slide" data-index="3">
+              <div class="product-slide-img-box">
+                <span class="product-slide-tag">Trợ Lực Cao</span>
+                <img src="images/sp-21.jpg" alt="Giày Chạy Bộ Marathon Carbon Plate Ultra">
+              </div>
+              <div class="product-slide-info">
+                <span class="product-slide-category">Chạy Bộ</span>
+                <h3 class="product-slide-title">Giày Chạy Bộ Carbon Plate</h3>
+                <div class="product-slide-bottom">
+                  <span class="product-slide-price">2.450.000 đ</span>
+                  <a href="Ct10.21.html" class="btn btn-primary btn-sm">Xem Chi Tiết</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sản phẩm 5: Bóng Bàn -->
+            <div class="product-slide" data-index="4">
+              <div class="product-slide-img-box">
+                <span class="product-slide-tag">Tiêu Chuẩn ITTF</span>
+                <img src="images/sp-9.jpg" alt="Cốt Vợt Bóng Bàn Carbon Pro Master 7 Lớp">
+              </div>
+              <div class="product-slide-info">
+                <span class="product-slide-category">Bóng Bàn</span>
+                <h3 class="product-slide-title">Cốt Vợt Carbon Pro Master</h3>
+                <div class="product-slide-bottom">
+                  <span class="product-slide-price">890.000 đ</span>
+                  <a href="Ct10.9.html" class="btn btn-primary btn-sm">Xem Chi Tiết</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Nút điều khiển và dots của slider -->
+          <div class="banner-slider-controls">
+            <div class="slider-dots" id="sliderDots">
+              <button type="button" class="slider-dot active" data-slide="0" aria-label="Xem sản phẩm 1"></button>
+              <button type="button" class="slider-dot" data-slide="1" aria-label="Xem sản phẩm 2"></button>
+              <button type="button" class="slider-dot" data-slide="2" aria-label="Xem sản phẩm 3"></button>
+              <button type="button" class="slider-dot" data-slide="3" aria-label="Xem sản phẩm 4"></button>
+              <button type="button" class="slider-dot" data-slide="4" aria-label="Xem sản phẩm 5"></button>
+            </div>
+            <div class="slider-nav-btns">
+              <button type="button" class="slider-nav-btn" id="sliderPrev" aria-label="Sản phẩm trước">&#8249;</button>
+              <button type="button" class="slider-nav-btn" id="sliderNext" aria-label="Sản phẩm tiếp theo">&#8250;</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -309,5 +427,94 @@
     </div>
   </footer>
 
+  <!-- Script điều khiển chuyển động slider sản phẩm banner 30% -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var slider = document.getElementById('bannerProductSlider');
+      if (!slider) return;
+
+      var slides = slider.querySelectorAll('.product-slide');
+      var dots = document.querySelectorAll('.slider-dot');
+      var prevBtn = document.getElementById('sliderPrev');
+      var nextBtn = document.getElementById('sliderNext');
+      var counter = document.getElementById('bannerSlideCounter');
+      var sideContainer = document.querySelector('.hero-banner-side');
+
+      if (!slides.length) return;
+
+      var currentIndex = 0;
+      var totalSlides = slides.length;
+      var timer = null;
+      var intervalTime = 3200; // Tự động chuyển đổi sau mỗi 3.2 giây
+
+      function updateSlide(index) {
+        slides[currentIndex].classList.remove('active');
+        if (dots[currentIndex]) dots[currentIndex].classList.remove('active');
+
+        currentIndex = (index + totalSlides) % totalSlides;
+
+        slides[currentIndex].classList.add('active');
+        if (dots[currentIndex]) dots[currentIndex].classList.add('active');
+        if (counter) counter.textContent = (currentIndex + 1) + ' / ' + totalSlides;
+      }
+
+      function nextSlide() {
+        updateSlide(currentIndex + 1);
+      }
+
+      function prevSlide() {
+        updateSlide(currentIndex - 1);
+      }
+
+      function startAutoPlay() {
+        stopAutoPlay();
+        timer = setInterval(nextSlide, intervalTime);
+      }
+
+      function stopAutoPlay() {
+        if (timer) {
+          clearInterval(timer);
+          timer = null;
+        }
+      }
+
+      if (nextBtn) {
+        nextBtn.addEventListener('click', function (e) {
+          e.preventDefault();
+          nextSlide();
+          startAutoPlay();
+        });
+      }
+
+      if (prevBtn) {
+        prevBtn.addEventListener('click', function (e) {
+          e.preventDefault();
+          prevSlide();
+          startAutoPlay();
+        });
+      }
+
+      dots.forEach(function (dot) {
+        dot.addEventListener('click', function (e) {
+          e.preventDefault();
+          var slideIdx = parseInt(this.getAttribute('data-slide'), 10);
+          if (!isNaN(slideIdx)) {
+            updateSlide(slideIdx);
+            startAutoPlay();
+          }
+        });
+      });
+
+      // Tạm dừng khi rê chuột hoặc chạm tay vào để xem chi tiết
+      if (sideContainer) {
+        sideContainer.addEventListener('mouseenter', stopAutoPlay);
+        sideContainer.addEventListener('mouseleave', startAutoPlay);
+        sideContainer.addEventListener('touchstart', stopAutoPlay, { passive: true });
+        sideContainer.addEventListener('touchend', startAutoPlay, { passive: true });
+      }
+
+      startAutoPlay();
+    });
+  </script>
 </body>
 </html>
